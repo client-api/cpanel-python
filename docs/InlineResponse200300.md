@@ -1,0 +1,32 @@
+# InlineResponse200300
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**apiversion** | **int** | The version of the API. | [optional] 
+**func** | **str** | The name of the method called. | [optional] 
+**module** | **str** | The name of the module called. | [optional] 
+**result** | [**InlineResponse200300Result**](InlineResponse200300Result.md) |  | [optional] 
+
+## Example
+
+```python
+from clientapi_cpanel.models.inline_response200300 import InlineResponse200300
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of InlineResponse200300 from a JSON string
+inline_response200300_instance = InlineResponse200300.from_json(json)
+# print the JSON string representation of the object
+print(InlineResponse200300.to_json())
+
+# convert the object into a dict
+inline_response200300_dict = inline_response200300_instance.to_dict()
+# create an instance of InlineResponse200300 from a dict
+inline_response200300_from_dict = InlineResponse200300.from_dict(inline_response200300_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

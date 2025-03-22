@@ -1,0 +1,30 @@
+# InlineResponse200452ResultData
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**backend** | **str** | The name of the server to which the system will proxy requests for this service group. | [optional] 
+**service_group** | **str** | The name of the proxying service group, if applicable.  * null — The account’s general service proxying backend. | [optional] 
+
+## Example
+
+```python
+from clientapi_cpanel.models.inline_response200452_result_data import InlineResponse200452ResultData
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of InlineResponse200452ResultData from a JSON string
+inline_response200452_result_data_instance = InlineResponse200452ResultData.from_json(json)
+# print the JSON string representation of the object
+print(InlineResponse200452ResultData.to_json())
+
+# convert the object into a dict
+inline_response200452_result_data_dict = inline_response200452_result_data_instance.to_dict()
+# create an instance of InlineResponse200452ResultData from a dict
+inline_response200452_result_data_from_dict = InlineResponse200452ResultData.from_dict(inline_response200452_result_data_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
